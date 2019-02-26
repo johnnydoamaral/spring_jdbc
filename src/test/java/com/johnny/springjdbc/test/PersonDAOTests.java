@@ -24,7 +24,7 @@ public class PersonDAOTests {
 
 	@Test
 	public void testFindAll() {
-		assertThat(dao.findAllPersons(), is(not(nullValue())));
+		assertThat(dao.findAllPersons(), is(not(empty())));
 	}
 
 	@Test
